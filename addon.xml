@@ -1,0 +1,24 @@
+<addon id="plugin.video.voyo.cz" name="VOYO" provider-name="gtom" version="0.1.1">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" version="2.22.0" />
+        <import addon="script.module.beautifulsoup4" version="4.6.2" />
+        <import addon="script.module.routing" version="0.2.3" />
+        <import addon="script.module.inputstreamhelper" version="0.3.3" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">VOYO</summary>
+        <summary lang="cs_CZ">VOYO</summary>
+        <description lang="en_GB">Doplněk pro přehrávání seriálů, filmů a pořadů TV Nova na online televizi VOYO.</description>
+        <description lang="cs_CZ">Doplněk pro přehrávání seriálů, filmů a pořadů TV Nova na online televizi VOYO.</description>
+        <platform>all</platform>
+        <source>https://github.com/xbmc-kodi-cz/plugin.video.voyo.cz</source>
+        <news>První verze pluginu pro Kodi 19</news>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+    </extension>
+</addon>
